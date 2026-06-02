@@ -1,0 +1,28 @@
+{
+  "reference_prefix": "data\\sessions\\session_001_check",
+  "candidate_prefix": "data\\sessions\\live_001",
+  "pearson": {
+    "shape": [
+      20,
+      20
+    ],
+    "max_abs_diff": 1.191127893539122,
+    "mean_abs_diff": 0.35087013912768616,
+    "off_diag_max_abs_diff": 1.191127893539122,
+    "off_diag_mean_abs_diff": 0.3545116221261319,
+    "off_diag_fraction_absdiff_le_0_01": 0.5131578947368421,
+    "off_diag_fraction_absdiff_le_0_05": 0.5815789473684211
+  },
+  "spearman": {
+    "shape": [
+      20,
+      20
+    ],
+    "max_abs_diff": 1.2084193164193164,
+    "mean_abs_diff": 0.34993362079362084,
+    "off_diag_max_abs_diff": 1.2084193164193164,
+    "off_diag_mean_abs_diff": 0.3533495855495856,
+    "off_diag_fraction_absdiff_le_0_01": 0.4921052631578947,
+    "off_diag_fraction_absdiff_le_0_05": 0.5842105263157895
+  }
+}

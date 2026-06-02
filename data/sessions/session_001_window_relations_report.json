@@ -1,0 +1,1036 @@
+{
+  "input": {
+    "pearson_file": "data\\sessions\\session_001_window_relations_pearson.npy",
+    "spearman_file": "data\\sessions\\session_001_window_relations_spearman.npy",
+    "shape": [
+      20,
+      20
+    ],
+    "include_diagonal": false,
+    "eps": 1e-12
+  },
+  "summary": {
+    "finite_pair_values": 380,
+    "matrix_vector_corr": 0.9999867478909961,
+    "matrix_cosine_similarity": 0.999996901727888,
+    "sign_agreement_fraction": 1.0,
+    "absdiff": {
+      "count": 380,
+      "min": 5.932002418999188e-05,
+      "max": 0.02491183279386039,
+      "mean": 0.001590967123829839,
+      "median": 0.0010017425804497715,
+      "std": 0.002023746838050823
+    },
+    "signed_diff": {
+      "count": 380,
+      "min": -0.0041204365080202005,
+      "max": 0.02491183279386039,
+      "mean": 0.0013436358288257111,
+      "median": 0.0009674705134928852,
+      "std": 0.0021957619208657253
+    },
+    "abs_ratio": {
+      "count": 380,
+      "min": 0.8922225734094529,
+      "max": 4.056315536344769,
+      "mean": 1.015703467352594,
+      "median": 1.0009973613975132,
+      "std": 0.22168341437551367
+    },
+    "signed_ratio": {
+      "count": 380,
+      "min": 0.8922225734094529,
+      "max": 4.056315536344769,
+      "mean": 1.015703467352594,
+      "median": 1.0009973613975132,
+      "std": 0.22168341437551367
+    },
+    "mean_abs_strength": {
+      "count": 380,
+      "min": 0.020606852547866344,
+      "max": 0.9973267116350787,
+      "mean": 0.8154077666579557,
+      "median": 0.9955182344715376,
+      "std": 0.3635408693730386
+    },
+    "abs_dominance": {
+      "count": 380,
+      "min": -0.005414205651966146,
+      "max": 0.02491183279386039,
+      "mean": 0.001250106613642257,
+      "median": 0.0009385188518102883,
+      "std": 0.0022503246672771426
+    }
+  },
+  "top": {
+    "largest_absdiff": [
+      {
+        "i": 3,
+        "j": 19,
+        "label_i": "канал[3]",
+        "label_j": "канал[19]",
+        "pearson": 0.03306276894479654,
+        "spearman": 0.00815093615093615,
+        "signed_diff": 0.02491183279386039,
+        "absdiff": 0.02491183279386039,
+        "signed_ratio": 4.056315536344769,
+        "abs_ratio": 4.056315536344769,
+        "mean_abs_strength": 0.020606852547866344,
+        "abs_dominance": 0.02491183279386039,
+        "sign_agreement": 1.0,
+        "sign_relation": "знак совпадает"
+      },
+      {
+        "i": 17,
+        "j": 18,
+        "label_i": "канал[17]",
+        "label_j": "канал[18]",
+        "pearson": 0.9747427688414666,
+        "spearman": 0.9677486237486237,
+        "signed_diff": 0.006994145092842907,
+        "absdiff": 0.006994145092842907,
+        "signed_ratio": 1.0072272333136996,
+        "abs_ratio": 1.0072272333136996,
+        "mean_abs_strength": 0.9712456962950451,
+        "abs_dominance": 0.006994145092842907,
+        "sign_agreement": 1.0,
+        "sign_relation": "знак совпадает"
+      },
+      {
+        "i": 16,
+        "j": 17,
+        "label_i": "канал[16]",
+        "label_j": "канал[17]",
+        "pearson": 0.9761697851006044,
+        "spearman": 0.9697634377634379,
+        "signed_diff": 0.006406347337166496,
+        "absdiff": 0.006406347337166496,
+        "signed_ratio": 1.0066060928755383,
+        "abs_ratio": 1.0066060928755383,
+        "mean_abs_strength": 0.9729666114320211,
+        "abs_dominance": 0.006406347337166496,
+        "sign_agreement": 1.0,
+        "sign_relation": "знак совпадает"
+      },
+      {
+        "i": 3,
+        "j": 16,
+        "label_i": "канал[3]",
+        "label_j": "канал[16]",
+        "pearson": -0.048172159934399446,
+        "spearman": -0.05358636558636559,
+        "signed_diff": 0.005414205651966146,
+        "absdiff": 0.005414205651966146,
+        "signed_ratio": 0.8989629993987925,
+        "abs_ratio": 0.8989629993987925,
+        "mean_abs_strength": 0.050879262760382515,
+        "abs_dominance": -0.005414205651966146,
+        "sign_agreement": 1.0,
+        "sign_relation": "знак совпадает"
+      },
+      {
+        "i": 3,
+        "j": 18,
+        "label_i": "канал[3]",
+        "label_j": "канал[18]",
+        "pearson": -0.037683161568928335,
+        "spearman": -0.04223515823515824,
+        "signed_diff": 0.004551996666229907,
+        "absdiff": 0.004551996666229907,
+        "signed_ratio": 0.8922225734094529,
+        "abs_ratio": 0.8922225734094529,
+        "mean_abs_strength": 0.03995915990204329,
+        "abs_dominance": -0.004551996666229907,
+        "sign_agreement": 1.0,
+        "sign_relation": "знак совпадает"
+      },
+      {
+        "i": 16,
+        "j": 19,
+        "label_i": "канал[16]",
+        "label_j": "канал[19]",
+        "pearson": -0.10968270607028975,
+        "spearman": -0.10556226956226956,
+        "signed_diff": -0.004120436508020187,
+        "absdiff": 0.004120436508020187,
+        "signed_ratio": 1.0390332315239736,
+        "abs_ratio": 1.0390332315239736,
+        "mean_abs_strength": 0.10762248781627966,
+        "abs_dominance": 0.004120436508020187,
+        "sign_agreement": 1.0,
+        "sign_relation": "знак совпадает"
+      },
+      {
+        "i": 12,
+        "j": 19,
+        "label_i": "канал[12]",
+        "label_j": "канал[19]",
+        "pearson": -0.10630299815314417,
+        "spearman": -0.10275870675870677,
+        "signed_diff": -0.0035442913944374044,
+        "absdiff": 0.0035442913944374044,
+        "signed_ratio": 1.0344913974322385,
+        "abs_ratio": 1.0344913974322385,
+        "mean_abs_strength": 0.10453085245592547,
+        "abs_dominance": 0.0035442913944374044,
+        "sign_agreement": 1.0,
+        "sign_relation": "знак совпадает"
+      },
+      {
+        "i": 18,
+        "j": 19,
+        "label_i": "канал[18]",
+        "label_j": "канал[19]",
+        "pearson": -0.1140368116715286,
+        "spearman": -0.11057652257652258,
+        "signed_diff": -0.0034602890950060222,
+        "absdiff": 0.0034602890950060222,
+        "signed_ratio": 1.031293162548238,
+        "abs_ratio": 1.031293162548238,
+        "mean_abs_strength": 0.1123066671240256,
+        "abs_dominance": 0.0034602890950060222,
+        "sign_agreement": 1.0,
+        "sign_relation": "знак совпадает"
+      },
+      {
+        "i": 8,
+        "j": 18,
+        "label_i": "канал[8]",
+        "label_j": "канал[18]",
+        "pearson": 0.9910220695425219,
+        "spearman": 0.9876061596061597,
+        "signed_diff": 0.0034159099363622047,
+        "absdiff": 0.0034159099363622047,
+        "signed_ratio": 1.0034587774723118,
+        "abs_ratio": 1.0034587774723118,
+        "mean_abs_strength": 0.9893141145743408,
+        "abs_dominance": 0.0034159099363622047,
+        "sign_agreement": 1.0,
+        "sign_relation": "знак совпадает"
+      },
+      {
+        "i": 0,
+        "j": 18,
+        "label_i": "канал[0]",
+        "label_j": "канал[18]",
+        "pearson": 0.9904196579564882,
+        "spearman": 0.9870294270294272,
+        "signed_diff": 0.003390230927061033,
+        "absdiff": 0.003390230927061033,
+        "signed_ratio": 1.0034347820178617,
+        "abs_ratio": 1.0034347820178617,
+        "mean_abs_strength": 0.9887245424929577,
+        "abs_dominance": 0.003390230927061033,
+        "sign_agreement": 1.0,
+        "sign_relation": "знак совпадает"
+      }
+    ],
+    "largest_mean_abs_strength": [
+      {
+        "i": 7,
+        "j": 8,
+        "label_i": "канал[7]",
+        "label_j": "канал[8]",
+        "pearson": 0.9976788542955883,
+        "spearman": 0.996974568974569,
+        "signed_diff": 0.0007042853210192934,
+        "absdiff": 0.0007042853210192934,
+        "signed_ratio": 1.0007064225537303,
+        "abs_ratio": 1.0007064225537303,
+        "mean_abs_strength": 0.9973267116350787,
+        "abs_dominance": 0.0007042853210192934,
+        "sign_agreement": 1.0,
+        "sign_relation": "знак совпадает"
+      },
+      {
+        "i": 7,
+        "j": 15,
+        "label_i": "канал[7]",
+        "label_j": "канал[15]",
+        "pearson": 0.9976697889937045,
+        "spearman": 0.9969811689811692,
+        "signed_diff": 0.0006886200125353348,
+        "absdiff": 0.0006886200125353348,
+        "signed_ratio": 1.0006907051346206,
+        "abs_ratio": 1.0006907051346206,
+        "mean_abs_strength": 0.9973254789874368,
+        "abs_dominance": 0.0006886200125353348,
+        "sign_agreement": 1.0,
+        "sign_relation": "знак совпадает"
+      },
+      {
+        "i": 5,
+        "j": 7,
+        "label_i": "канал[5]",
+        "label_j": "канал[7]",
+        "pearson": 0.9975026269315082,
+        "spearman": 0.9970017970017973,
+        "signed_diff": 0.0005008299297108998,
+        "absdiff": 0.0005008299297108998,
+        "signed_ratio": 1.0005023360351175,
+        "abs_ratio": 1.0005023360351175,
+        "mean_abs_strength": 0.9972522119666527,
+        "abs_dominance": 0.0005008299297108998,
+        "sign_agreement": 1.0,
+        "sign_relation": "знак совпадает"
+      },
+      {
+        "i": 1,
+        "j": 7,
+        "label_i": "канал[1]",
+        "label_j": "канал[7]",
+        "pearson": 0.99764863253747,
+        "spearman": 0.9968170568170568,
+        "signed_diff": 0.0008315757204132579,
+        "absdiff": 0.0008315757204132579,
+        "signed_ratio": 1.0008342310303844,
+        "abs_ratio": 1.0008342310303844,
+        "mean_abs_strength": 0.9972328446772634,
+        "abs_dominance": 0.0008315757204132579,
+        "sign_agreement": 1.0,
+        "sign_relation": "знак совпадает"
+      },
+      {
+        "i": 7,
+        "j": 12,
+        "label_i": "канал[7]",
+        "label_j": "канал[12]",
+        "pearson": 0.9974529046171036,
+        "spearman": 0.996785928785929,
+        "signed_diff": 0.0006669758311745877,
+        "absdiff": 0.0006669758311745877,
+        "signed_ratio": 1.0006691264512402,
+        "abs_ratio": 1.0006691264512402,
+        "mean_abs_strength": 0.9971194167015163,
+        "abs_dominance": 0.0006669758311745877,
+        "sign_agreement": 1.0,
+        "sign_relation": "знак совпадает"
+      },
+      {
+        "i": 11,
+        "j": 15,
+        "label_i": "канал[11]",
+        "label_j": "канал[15]",
+        "pearson": 0.9973879458723297,
+        "spearman": 0.9966943086943088,
+        "signed_diff": 0.000693637178020956,
+        "absdiff": 0.000693637178020956,
+        "signed_ratio": 1.0006959377333353,
+        "abs_ratio": 1.0006959377333353,
+        "mean_abs_strength": 0.9970411272833193,
+        "abs_dominance": 0.000693637178020956,
+        "sign_agreement": 1.0,
+        "sign_relation": "знак совпадает"
+      },
+      {
+        "i": 7,
+        "j": 9,
+        "label_i": "канал[7]",
+        "label_j": "канал[9]",
+        "pearson": 0.9973640687184926,
+        "spearman": 0.9967112287112286,
+        "signed_diff": 0.0006528400072639551,
+        "absdiff": 0.0006528400072639551,
+        "signed_ratio": 1.0006549941331635,
+        "abs_ratio": 1.0006549941331635,
+        "mean_abs_strength": 0.9970376487148607,
+        "abs_dominance": 0.0006528400072639551,
+        "sign_agreement": 1.0,
+        "sign_relation": "знак совпадает"
+      },
+      {
+        "i": 8,
+        "j": 12,
+        "label_i": "канал[8]",
+        "label_j": "канал[12]",
+        "pearson": 0.9972590514612989,
+        "spearman": 0.9967311727311727,
+        "signed_diff": 0.0005278787301261634,
+        "absdiff": 0.0005278787301261634,
+        "signed_ratio": 1.0005296099335186,
+        "abs_ratio": 1.0005296099335186,
+        "mean_abs_strength": 0.9969951120962358,
+        "abs_dominance": 0.0005278787301261634,
+        "sign_agreement": 1.0,
+        "sign_relation": "знак совпадает"
+      },
+      {
+        "i": 7,
+        "j": 11,
+        "label_i": "канал[7]",
+        "label_j": "канал[11]",
+        "pearson": 0.9973952249646552,
+        "spearman": 0.9965777525777526,
+        "signed_diff": 0.0008174723869025513,
+        "absdiff": 0.0008174723869025513,
+        "signed_ratio": 1.0008202795866032,
+        "abs_ratio": 1.0008202795866032,
+        "mean_abs_strength": 0.9969864887712039,
+        "abs_dominance": 0.0008174723869025513,
+        "sign_agreement": 1.0,
+        "sign_relation": "знак совпадает"
+      },
+      {
+        "i": 5,
+        "j": 15,
+        "label_i": "канал[5]",
+        "label_j": "канал[15]",
+        "pearson": 0.9972066616013755,
+        "spearman": 0.9967174087174088,
+        "signed_diff": 0.0004892528839667287,
+        "absdiff": 0.0004892528839667287,
+        "signed_ratio": 1.0004908641904793,
+        "abs_ratio": 1.0004908641904793,
+        "mean_abs_strength": 0.9969620351593922,
+        "abs_dominance": 0.0004892528839667287,
+        "sign_agreement": 1.0,
+        "sign_relation": "знак совпадает"
+      }
+    ],
+    "largest_abs_ratio": [
+      {
+        "i": 3,
+        "j": 19,
+        "label_i": "канал[3]",
+        "label_j": "канал[19]",
+        "pearson": 0.03306276894479654,
+        "spearman": 0.00815093615093615,
+        "signed_diff": 0.02491183279386039,
+        "absdiff": 0.02491183279386039,
+        "signed_ratio": 4.056315536344769,
+        "abs_ratio": 4.056315536344769,
+        "mean_abs_strength": 0.020606852547866344,
+        "abs_dominance": 0.02491183279386039,
+        "sign_agreement": 1.0,
+        "sign_relation": "знак совпадает"
+      },
+      {
+        "i": 16,
+        "j": 19,
+        "label_i": "канал[16]",
+        "label_j": "канал[19]",
+        "pearson": -0.10968270607028975,
+        "spearman": -0.10556226956226956,
+        "signed_diff": -0.004120436508020187,
+        "absdiff": 0.004120436508020187,
+        "signed_ratio": 1.0390332315239736,
+        "abs_ratio": 1.0390332315239736,
+        "mean_abs_strength": 0.10762248781627966,
+        "abs_dominance": 0.004120436508020187,
+        "sign_agreement": 1.0,
+        "sign_relation": "знак совпадает"
+      },
+      {
+        "i": 3,
+        "j": 7,
+        "label_i": "канал[3]",
+        "label_j": "канал[7]",
+        "pearson": -0.0485889962206401,
+        "spearman": -0.04685153885153886,
+        "signed_diff": -0.0017374573691012404,
+        "absdiff": 0.0017374573691012404,
+        "signed_ratio": 1.037084318075588,
+        "abs_ratio": 1.037084318075588,
+        "mean_abs_strength": 0.047720267536089475,
+        "abs_dominance": 0.0017374573691012404,
+        "sign_agreement": 1.0,
+        "sign_relation": "знак совпадает"
+      },
+      {
+        "i": 12,
+        "j": 19,
+        "label_i": "канал[12]",
+        "label_j": "канал[19]",
+        "pearson": -0.10630299815314417,
+        "spearman": -0.10275870675870677,
+        "signed_diff": -0.0035442913944374044,
+        "absdiff": 0.0035442913944374044,
+        "signed_ratio": 1.0344913974322385,
+        "abs_ratio": 1.0344913974322385,
+        "mean_abs_strength": 0.10453085245592547,
+        "abs_dominance": 0.0035442913944374044,
+        "sign_agreement": 1.0,
+        "sign_relation": "знак совпадает"
+      },
+      {
+        "i": 18,
+        "j": 19,
+        "label_i": "канал[18]",
+        "label_j": "канал[19]",
+        "pearson": -0.1140368116715286,
+        "spearman": -0.11057652257652258,
+        "signed_diff": -0.0034602890950060222,
+        "absdiff": 0.0034602890950060222,
+        "signed_ratio": 1.031293162548238,
+        "abs_ratio": 1.031293162548238,
+        "mean_abs_strength": 0.1123066671240256,
+        "abs_dominance": 0.0034602890950060222,
+        "sign_agreement": 1.0,
+        "sign_relation": "знак совпадает"
+      },
+      {
+        "i": 1,
+        "j": 3,
+        "label_i": "канал[1]",
+        "label_j": "канал[3]",
+        "pearson": -0.04855121228071908,
+        "spearman": -0.047518967518967524,
+        "signed_diff": -0.0010322447617515593,
+        "absdiff": 0.0010322447617515593,
+        "signed_ratio": 1.0217227944049823,
+        "abs_ratio": 1.0217227944049823,
+        "mean_abs_strength": 0.0480350898998433,
+        "abs_dominance": 0.0010322447617515593,
+        "sign_agreement": 1.0,
+        "sign_relation": "знак совпадает"
+      },
+      {
+        "i": 13,
+        "j": 19,
+        "label_i": "канал[13]",
+        "label_j": "канал[19]",
+        "pearson": -0.10763223654845289,
+        "spearman": -0.10583601383601385,
+        "signed_diff": -0.0017962227124390384,
+        "absdiff": 0.0017962227124390384,
+        "signed_ratio": 1.0169717532561475,
+        "abs_ratio": 1.0169717532561475,
+        "mean_abs_strength": 0.10673412519223337,
+        "abs_dominance": 0.0017962227124390384,
+        "sign_agreement": 1.0,
+        "sign_relation": "знак совпадает"
+      },
+      {
+        "i": 10,
+        "j": 19,
+        "label_i": "канал[10]",
+        "label_j": "канал[19]",
+        "pearson": -0.10420443685581568,
+        "spearman": -0.1024947664947665,
+        "signed_diff": -0.0017096703610491731,
+        "absdiff": 0.0017096703610491731,
+        "signed_ratio": 1.0166805625254678,
+        "abs_ratio": 1.0166805625254678,
+        "mean_abs_strength": 0.10334960167529109,
+        "abs_dominance": 0.0017096703610491731,
+        "sign_agreement": 1.0,
+        "sign_relation": "знак совпадает"
+      },
+      {
+        "i": 3,
+        "j": 17,
+        "label_i": "канал[3]",
+        "label_j": "канал[17]",
+        "pearson": -0.05478807053391216,
+        "spearman": -0.05402038202038202,
+        "signed_diff": -0.0007676885135301376,
+        "absdiff": 0.0007676885135301376,
+        "signed_ratio": 1.0142110900519083,
+        "abs_ratio": 1.0142110900519083,
+        "mean_abs_strength": 0.05440422627714709,
+        "abs_dominance": 0.0007676885135301376,
+        "sign_agreement": 1.0,
+        "sign_relation": "знак совпадает"
+      },
+      {
+        "i": 11,
+        "j": 19,
+        "label_i": "канал[11]",
+        "label_j": "канал[19]",
+        "pearson": -0.10726490956462617,
+        "spearman": -0.10584856584856585,
+        "signed_diff": -0.0014163437160603226,
+        "absdiff": 0.0014163437160603226,
+        "signed_ratio": 1.0133808493738747,
+        "abs_ratio": 1.0133808493738747,
+        "mean_abs_strength": 0.10655673770659602,
+        "abs_dominance": 0.0014163437160603226,
+        "sign_agreement": 1.0,
+        "sign_relation": "знак совпадает"
+      }
+    ],
+    "pearson_stronger_than_spearman": [
+      {
+        "i": 3,
+        "j": 19,
+        "label_i": "канал[3]",
+        "label_j": "канал[19]",
+        "pearson": 0.03306276894479654,
+        "spearman": 0.00815093615093615,
+        "signed_diff": 0.02491183279386039,
+        "absdiff": 0.02491183279386039,
+        "signed_ratio": 4.056315536344769,
+        "abs_ratio": 4.056315536344769,
+        "mean_abs_strength": 0.020606852547866344,
+        "abs_dominance": 0.02491183279386039,
+        "sign_agreement": 1.0,
+        "sign_relation": "знак совпадает"
+      },
+      {
+        "i": 17,
+        "j": 18,
+        "label_i": "канал[17]",
+        "label_j": "канал[18]",
+        "pearson": 0.9747427688414666,
+        "spearman": 0.9677486237486237,
+        "signed_diff": 0.006994145092842907,
+        "absdiff": 0.006994145092842907,
+        "signed_ratio": 1.0072272333136996,
+        "abs_ratio": 1.0072272333136996,
+        "mean_abs_strength": 0.9712456962950451,
+        "abs_dominance": 0.006994145092842907,
+        "sign_agreement": 1.0,
+        "sign_relation": "знак совпадает"
+      },
+      {
+        "i": 16,
+        "j": 17,
+        "label_i": "канал[16]",
+        "label_j": "канал[17]",
+        "pearson": 0.9761697851006044,
+        "spearman": 0.9697634377634379,
+        "signed_diff": 0.006406347337166496,
+        "absdiff": 0.006406347337166496,
+        "signed_ratio": 1.0066060928755383,
+        "abs_ratio": 1.0066060928755383,
+        "mean_abs_strength": 0.9729666114320211,
+        "abs_dominance": 0.006406347337166496,
+        "sign_agreement": 1.0,
+        "sign_relation": "знак совпадает"
+      },
+      {
+        "i": 16,
+        "j": 19,
+        "label_i": "канал[16]",
+        "label_j": "канал[19]",
+        "pearson": -0.10968270607028975,
+        "spearman": -0.10556226956226956,
+        "signed_diff": -0.004120436508020187,
+        "absdiff": 0.004120436508020187,
+        "signed_ratio": 1.0390332315239736,
+        "abs_ratio": 1.0390332315239736,
+        "mean_abs_strength": 0.10762248781627966,
+        "abs_dominance": 0.004120436508020187,
+        "sign_agreement": 1.0,
+        "sign_relation": "знак совпадает"
+      },
+      {
+        "i": 12,
+        "j": 19,
+        "label_i": "канал[12]",
+        "label_j": "канал[19]",
+        "pearson": -0.10630299815314417,
+        "spearman": -0.10275870675870677,
+        "signed_diff": -0.0035442913944374044,
+        "absdiff": 0.0035442913944374044,
+        "signed_ratio": 1.0344913974322385,
+        "abs_ratio": 1.0344913974322385,
+        "mean_abs_strength": 0.10453085245592547,
+        "abs_dominance": 0.0035442913944374044,
+        "sign_agreement": 1.0,
+        "sign_relation": "знак совпадает"
+      },
+      {
+        "i": 18,
+        "j": 19,
+        "label_i": "канал[18]",
+        "label_j": "канал[19]",
+        "pearson": -0.1140368116715286,
+        "spearman": -0.11057652257652258,
+        "signed_diff": -0.0034602890950060222,
+        "absdiff": 0.0034602890950060222,
+        "signed_ratio": 1.031293162548238,
+        "abs_ratio": 1.031293162548238,
+        "mean_abs_strength": 0.1123066671240256,
+        "abs_dominance": 0.0034602890950060222,
+        "sign_agreement": 1.0,
+        "sign_relation": "знак совпадает"
+      },
+      {
+        "i": 8,
+        "j": 18,
+        "label_i": "канал[8]",
+        "label_j": "канал[18]",
+        "pearson": 0.9910220695425219,
+        "spearman": 0.9876061596061597,
+        "signed_diff": 0.0034159099363622047,
+        "absdiff": 0.0034159099363622047,
+        "signed_ratio": 1.0034587774723118,
+        "abs_ratio": 1.0034587774723118,
+        "mean_abs_strength": 0.9893141145743408,
+        "abs_dominance": 0.0034159099363622047,
+        "sign_agreement": 1.0,
+        "sign_relation": "знак совпадает"
+      },
+      {
+        "i": 0,
+        "j": 18,
+        "label_i": "канал[0]",
+        "label_j": "канал[18]",
+        "pearson": 0.9904196579564882,
+        "spearman": 0.9870294270294272,
+        "signed_diff": 0.003390230927061033,
+        "absdiff": 0.003390230927061033,
+        "signed_ratio": 1.0034347820178617,
+        "abs_ratio": 1.0034347820178617,
+        "mean_abs_strength": 0.9887245424929577,
+        "abs_dominance": 0.003390230927061033,
+        "sign_agreement": 1.0,
+        "sign_relation": "знак совпадает"
+      },
+      {
+        "i": 5,
+        "j": 16,
+        "label_i": "канал[5]",
+        "label_j": "канал[16]",
+        "pearson": 0.9914034809312213,
+        "spearman": 0.9880592440592442,
+        "signed_diff": 0.0033442368719771576,
+        "absdiff": 0.0033442368719771576,
+        "signed_ratio": 1.003384652177574,
+        "abs_ratio": 1.003384652177574,
+        "mean_abs_strength": 0.9897313624952327,
+        "abs_dominance": 0.0033442368719771576,
+        "sign_agreement": 1.0,
+        "sign_relation": "знак совпадает"
+      },
+      {
+        "i": 2,
+        "j": 18,
+        "label_i": "канал[2]",
+        "label_j": "канал[18]",
+        "pearson": 0.9893374860560314,
+        "spearman": 0.9859975819975823,
+        "signed_diff": 0.0033399040584491946,
+        "absdiff": 0.0033399040584491946,
+        "signed_ratio": 1.0033873349381677,
+        "abs_ratio": 1.0033873349381677,
+        "mean_abs_strength": 0.9876675340268068,
+        "abs_dominance": 0.0033399040584491946,
+        "sign_agreement": 1.0,
+        "sign_relation": "знак совпадает"
+      }
+    ],
+    "spearman_stronger_than_pearson": [
+      {
+        "i": 3,
+        "j": 16,
+        "label_i": "канал[3]",
+        "label_j": "канал[16]",
+        "pearson": -0.048172159934399446,
+        "spearman": -0.05358636558636559,
+        "signed_diff": 0.005414205651966146,
+        "absdiff": 0.005414205651966146,
+        "signed_ratio": 0.8989629993987925,
+        "abs_ratio": 0.8989629993987925,
+        "mean_abs_strength": 0.050879262760382515,
+        "abs_dominance": -0.005414205651966146,
+        "sign_agreement": 1.0,
+        "sign_relation": "знак совпадает"
+      },
+      {
+        "i": 3,
+        "j": 18,
+        "label_i": "канал[3]",
+        "label_j": "канал[18]",
+        "pearson": -0.037683161568928335,
+        "spearman": -0.04223515823515824,
+        "signed_diff": 0.004551996666229907,
+        "absdiff": 0.004551996666229907,
+        "signed_ratio": 0.8922225734094529,
+        "abs_ratio": 0.8922225734094529,
+        "mean_abs_strength": 0.03995915990204329,
+        "abs_dominance": -0.004551996666229907,
+        "sign_agreement": 1.0,
+        "sign_relation": "знак совпадает"
+      },
+      {
+        "i": 0,
+        "j": 3,
+        "label_i": "канал[0]",
+        "label_j": "канал[3]",
+        "pearson": -0.04731142084567509,
+        "spearman": -0.05062352662352662,
+        "signed_diff": 0.003312105777851529,
+        "absdiff": 0.003312105777851529,
+        "signed_ratio": 0.9345737841916317,
+        "abs_ratio": 0.9345737841916317,
+        "mean_abs_strength": 0.04896747373460086,
+        "abs_dominance": -0.003312105777851529,
+        "sign_agreement": 1.0,
+        "sign_relation": "знак совпадает"
+      },
+      {
+        "i": 3,
+        "j": 6,
+        "label_i": "канал[3]",
+        "label_j": "канал[6]",
+        "pearson": -0.052500465775283035,
+        "spearman": -0.05572344772344773,
+        "signed_diff": 0.0032229819481646924,
+        "absdiff": 0.0032229819481646924,
+        "signed_ratio": 0.942161117449872,
+        "abs_ratio": 0.942161117449872,
+        "mean_abs_strength": 0.05411195674936538,
+        "abs_dominance": -0.0032229819481646924,
+        "sign_agreement": 1.0,
+        "sign_relation": "знак совпадает"
+      },
+      {
+        "i": 3,
+        "j": 10,
+        "label_i": "канал[3]",
+        "label_j": "канал[10]",
+        "pearson": -0.052691817757666994,
+        "spearman": -0.05530770730770731,
+        "signed_diff": 0.002615889550040315,
+        "absdiff": 0.002615889550040315,
+        "signed_ratio": 0.952702983410853,
+        "abs_ratio": 0.952702983410853,
+        "mean_abs_strength": 0.05399976253268715,
+        "abs_dominance": -0.002615889550040315,
+        "sign_agreement": 1.0,
+        "sign_relation": "знак совпадает"
+      },
+      {
+        "i": 17,
+        "j": 19,
+        "label_i": "канал[17]",
+        "label_j": "канал[19]",
+        "pearson": -0.09732432796569844,
+        "spearman": -0.09947833547833548,
+        "signed_diff": 0.0021540075126370434,
+        "absdiff": 0.0021540075126370434,
+        "signed_ratio": 0.9783469686914278,
+        "abs_ratio": 0.9783469686914278,
+        "mean_abs_strength": 0.09840133172201695,
+        "abs_dominance": -0.0021540075126370434,
+        "sign_agreement": 1.0,
+        "sign_relation": "знак совпадает"
+      },
+      {
+        "i": 15,
+        "j": 19,
+        "label_i": "канал[15]",
+        "label_j": "канал[19]",
+        "pearson": -0.11193680435559578,
+        "spearman": -0.11341291741291742,
+        "signed_diff": 0.0014761130573216485,
+        "absdiff": 0.0014761130573216485,
+        "signed_ratio": 0.986984612590933,
+        "abs_ratio": 0.986984612590933,
+        "mean_abs_strength": 0.1126748608842566,
+        "abs_dominance": -0.0014761130573216485,
+        "sign_agreement": 1.0,
+        "sign_relation": "знак совпадает"
+      },
+      {
+        "i": 3,
+        "j": 4,
+        "label_i": "канал[3]",
+        "label_j": "канал[4]",
+        "pearson": -0.04270543954304543,
+        "spearman": -0.04417473217473218,
+        "signed_diff": 0.0014692926316867486,
+        "absdiff": 0.0014692926316867486,
+        "signed_ratio": 0.9667390709721795,
+        "abs_ratio": 0.9667390709721795,
+        "mean_abs_strength": 0.04344008585888881,
+        "abs_dominance": -0.0014692926316867486,
+        "sign_agreement": 1.0,
+        "sign_relation": "знак совпадает"
+      },
+      {
+        "i": 2,
+        "j": 3,
+        "label_i": "канал[2]",
+        "label_j": "канал[3]",
+        "pearson": -0.051398656463394046,
+        "spearman": -0.05277252477252478,
+        "signed_diff": 0.0013738683091307352,
+        "absdiff": 0.0013738683091307352,
+        "signed_ratio": 0.9739662198264575,
+        "abs_ratio": 0.9739662198264575,
+        "mean_abs_strength": 0.052085590617959414,
+        "abs_dominance": -0.0013738683091307352,
+        "sign_agreement": 1.0,
+        "sign_relation": "знак совпадает"
+      },
+      {
+        "i": 3,
+        "j": 14,
+        "label_i": "канал[3]",
+        "label_j": "канал[14]",
+        "pearson": -0.04695601010032685,
+        "spearman": -0.048297792297792304,
+        "signed_diff": 0.0013417821974654534,
+        "absdiff": 0.0013417821974654534,
+        "signed_ratio": 0.9722185604428386,
+        "abs_ratio": 0.9722185604428386,
+        "mean_abs_strength": 0.047626901199059574,
+        "abs_dominance": -0.0013417821974654534,
+        "sign_agreement": 1.0,
+        "sign_relation": "знак совпадает"
+      }
+    ],
+    "top_overlap": {
+      "top_k": 10,
+      "pearson_top_pairs": [
+        [
+          1,
+          7
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          7,
+          10
+        ],
+        [
+          7,
+          11
+        ],
+        [
+          7,
+          12
+        ],
+        [
+          7,
+          15
+        ],
+        [
+          11,
+          15
+        ]
+      ],
+      "spearman_top_pairs": [
+        [
+          1,
+          7
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          5,
+          15
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          7,
+          11
+        ],
+        [
+          7,
+          12
+        ],
+        [
+          7,
+          15
+        ],
+        [
+          8,
+          12
+        ],
+        [
+          11,
+          15
+        ]
+      ],
+      "common_pairs": [
+        [
+          1,
+          7
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          7,
+          11
+        ],
+        [
+          7,
+          12
+        ],
+        [
+          7,
+          15
+        ],
+        [
+          11,
+          15
+        ]
+      ],
+      "overlap_count": 8,
+      "overlap_fraction": 0.8
+    }
+  },
+  "recording": {
+    "samples_file": "data\\sessions\\session_001_samples.npy",
+    "timestamps_file": "data\\sessions\\session_001_timestamps.npy",
+    "raw_samples_shape": [
+      29946,
+      20
+    ],
+    "detected_orientation": "samples_channels",
+    "data_channels_samples_shape": [
+      20,
+      29946
+    ],
+    "sampling_rate_hz": 500.0,
+    "timestamps_summary": {
+      "n_timestamps": 29946,
+      "duration_seconds": 63.0,
+      "mean_dt": 0.0021038570712973784,
+      "median_dt": 0.0,
+      "min_dt": 0.0,
+      "max_dt": 3.0,
+      "n_zero_dt": 29884,
+      "n_negative_dt": 0
+    },
+    "window": {
+      "window_seconds": 2.0,
+      "start_seconds": 0.0,
+      "start_index": 0,
+      "end_index": 1000,
+      "window_shape": [
+        20,
+        1000
+      ],
+      "window_duration_from_timestamps": 2.0
+    }
+  }
+}

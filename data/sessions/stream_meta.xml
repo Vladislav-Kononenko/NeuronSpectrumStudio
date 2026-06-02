@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<info>
+	<name>NeuronSpectrum 25.03.2026 16:59:34</name>
+	<type>EEG</type>
+	<channel_count>20</channel_count>
+	<nominal_srate>500</nominal_srate>
+	<channel_format>float32</channel_format>
+	<source_id>checkup_3_25.03.2026 16:59:34</source_id>
+	<version>1.1000000000000001</version>
+	<created_at>10084.257121500001</created_at>
+	<uid>7558f0d2-919e-4d83-901d-dab8306f0a53</uid>
+	<session_id>default</session_id>
+	<hostname>DESKTOP-MH281MF</hostname>
+	<v4address />
+	<v4data_port>16572</v4data_port>
+	<v4service_port>16572</v4service_port>
+	<v6address />
+	<v6data_port>16572</v6data_port>
+	<v6service_port>16572</v6service_port>
+	<desc />
+</info>

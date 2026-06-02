@@ -1,0 +1,21 @@
+python scripts/lsl_browser.py
+python scripts/lsl_inspect.py --type EEG --out data/sessions/stream_meta
+python scripts/lsl_record.py --type EEG --duration 60 --out data/sessions/session_001
+python scripts/lsl_inspect.py --name "NeuronSpectrum 25.03.2026 16:59:34" --out data/sessions/stream_meta
+python scripts/lsl_record.py --name "NeuronSpectrum 25.03.2026 16:59:34" --duration 60 --out data/sessions/session_001
+python scripts/check_recording.py
+python scripts/check_recording.py --samples data/sessions/session_001_samples.npy --timestamps data/sessions/session_001_timestamps.npy --sfreq 500 --window-seconds 2 --start-seconds 0 --out data/sessions/session_001_check
+python scripts/check_recording.py --start-seconds 10 --window-seconds 2
+python scripts/live_correlations.py --type EEG --sfreq 500 --window-seconds 2 --step-seconds 0.25 --top-k 5
+python scripts/live_correlations.py --type EEG --sfreq 500 --window-seconds 2 --step-seconds 0.25 --duration 60 --top-k 5 --out data/sessions/live_001
+
+# show Pearson/Spearman matrices offline
+python scripts/check_recording.py --samples data/sessions/session_001_samples.npy --timestamps data/sessions/session_001_timestamps.npy --sfreq 500 --window-seconds 2 --start-seconds 10 --out data/sessions/session_001_check --print-matrices --save-csv --save-png --meta-json data/sessions/session_001_meta.json
+
+# show matrices live and continuously overwrite latest outputs
+python scripts/live_correlations.py --type EEG --sfreq 500 --window-seconds 2 --step-seconds 0.25 --top-k 5 --print-matrices --out data/sessions/live_001 --save-csv --save-png --meta-json data/sessions/session_001_meta.json
+
+# compare two saved output sets, e.g. offline vs live
+python scripts/compare_matrices.py --reference-prefix data/sessions/session_001_check --candidate-prefix data/sessions/live_001 --out data/sessions/offline_vs_live --print-matrices --save-csv --save-png --meta-json data/sessions/session_001_meta.json
+
+python scripts/correlation_relations.py --prefix data/sessions/session_001_check --meta-json data/sessions/session_001_meta.json --out data/sessions/session_001_relations --save-csv --print-summary

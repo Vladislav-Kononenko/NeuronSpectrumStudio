@@ -1,0 +1,219 @@
+{
+  "recording": {
+    "samples_file": "data\\sessions\\session_001_samples.npy",
+    "timestamps_file": "data\\sessions\\session_001_timestamps.npy",
+    "raw_samples_shape": [
+      29946,
+      20
+    ],
+    "detected_orientation": "samples_channels",
+    "data_channels_samples_shape": [
+      20,
+      29946
+    ],
+    "sampling_rate_hz": 500.0
+  },
+  "timestamps": {
+    "n_timestamps": 29946,
+    "duration_seconds": 63.0,
+    "mean_dt": 0.0021038570712973784,
+    "median_dt": 0.0,
+    "min_dt": 0.0,
+    "max_dt": 3.0,
+    "n_zero_dt": 29884,
+    "n_negative_dt": 0
+  },
+  "window": {
+    "window_seconds": 2.0,
+    "start_seconds": 10.0,
+    "start_index": 5000,
+    "end_index": 6000,
+    "window_shape": [
+      20,
+      1000
+    ],
+    "window_duration_from_timestamps": 2.0
+  },
+  "pearson": {
+    "name": "Пирсон",
+    "shape": [
+      20,
+      20
+    ],
+    "n_nan": 0,
+    "n_inf": 0,
+    "min": -0.1436054831882414,
+    "max": 1.0,
+    "off_diag_mean": 0.7876124121386303,
+    "off_diag_std": 0.4235459902553738
+  },
+  "spearman": {
+    "name": "Спирмен",
+    "shape": [
+      20,
+      20
+    ],
+    "n_nan": 0,
+    "n_inf": 0,
+    "min": -0.1367009567009567,
+    "max": 1.0,
+    "off_diag_mean": 0.7901353427037637,
+    "off_diag_std": 0.41701041131505284
+  },
+  "pearson_vs_spearman": {
+    "shape": [
+      20,
+      20
+    ],
+    "max_abs_diff": 0.029109915961756876,
+    "mean_abs_diff": 0.0037843237300979795,
+    "off_diag_max_abs_diff": 0.029109915961756876,
+    "off_diag_mean_abs_diff": 0.003983498663261029,
+    "off_diag_fraction_absdiff_le_0_01": 0.8894736842105263,
+    "off_diag_fraction_absdiff_le_0_05": 1.0
+  },
+  "top_pearson_pairs": [
+    {
+      "i": 11,
+      "j": 15,
+      "label_i": "канал[11]",
+      "label_j": "канал[15]",
+      "value": 0.9978466457446168
+    },
+    {
+      "i": 0,
+      "j": 8,
+      "label_i": "канал[0]",
+      "label_j": "канал[8]",
+      "value": 0.9977968996031569
+    },
+    {
+      "i": 8,
+      "j": 12,
+      "label_i": "канал[8]",
+      "label_j": "канал[12]",
+      "value": 0.9977811412460325
+    },
+    {
+      "i": 0,
+      "j": 12,
+      "label_i": "канал[0]",
+      "label_j": "канал[12]",
+      "value": 0.9976470386710681
+    },
+    {
+      "i": 7,
+      "j": 15,
+      "label_i": "канал[7]",
+      "label_j": "канал[15]",
+      "value": 0.9976317605591597
+    },
+    {
+      "i": 7,
+      "j": 8,
+      "label_i": "канал[7]",
+      "label_j": "канал[8]",
+      "value": 0.997576560602465
+    },
+    {
+      "i": 7,
+      "j": 12,
+      "label_i": "канал[7]",
+      "label_j": "канал[12]",
+      "value": 0.9975384500086635
+    },
+    {
+      "i": 13,
+      "j": 15,
+      "label_i": "канал[13]",
+      "label_j": "канал[15]",
+      "value": 0.9975311640065829
+    },
+    {
+      "i": 2,
+      "j": 8,
+      "label_i": "канал[2]",
+      "label_j": "канал[8]",
+      "value": 0.9975053665435565
+    },
+    {
+      "i": 5,
+      "j": 11,
+      "label_i": "канал[5]",
+      "label_j": "канал[11]",
+      "value": 0.9974899706986043
+    }
+  ],
+  "top_spearman_pairs": [
+    {
+      "i": 11,
+      "j": 15,
+      "label_i": "канал[11]",
+      "label_j": "канал[15]",
+      "value": 0.9973443373443374
+    },
+    {
+      "i": 0,
+      "j": 8,
+      "label_i": "канал[0]",
+      "label_j": "канал[8]",
+      "value": 0.9972978372978373
+    },
+    {
+      "i": 8,
+      "j": 12,
+      "label_i": "канал[8]",
+      "label_j": "канал[12]",
+      "value": 0.9972968772968773
+    },
+    {
+      "i": 0,
+      "j": 12,
+      "label_i": "канал[0]",
+      "label_j": "канал[12]",
+      "value": 0.9972633012633013
+    },
+    {
+      "i": 5,
+      "j": 11,
+      "label_i": "канал[5]",
+      "label_j": "канал[11]",
+      "value": 0.9971030651030652
+    },
+    {
+      "i": 0,
+      "j": 2,
+      "label_i": "канал[0]",
+      "label_j": "канал[2]",
+      "value": 0.997012009012009
+    },
+    {
+      "i": 7,
+      "j": 15,
+      "label_i": "канал[7]",
+      "label_j": "канал[15]",
+      "value": 0.9970047970047972
+    },
+    {
+      "i": 13,
+      "j": 15,
+      "label_i": "канал[13]",
+      "label_j": "канал[15]",
+      "value": 0.996996108996109
+    },
+    {
+      "i": 8,
+      "j": 14,
+      "label_i": "канал[8]",
+      "label_j": "канал[14]",
+      "value": 0.996988056988057
+    },
+    {
+      "i": 7,
+      "j": 12,
+      "label_i": "канал[7]",
+      "label_j": "канал[12]",
+      "value": 0.9969652209652209
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+numpy
+scipy
+matplotlib
+pylsl
+PySide6
+PyInstaller
+reportlab

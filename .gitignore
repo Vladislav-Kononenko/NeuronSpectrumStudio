@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Build artifacts
+build/
+dist/
+installer_dist/
+*.spec.py
+
+# PyInstaller / packaging logs
+*.toc
+*.pyz
+*.pkg
+
+# IDEs
+.idea/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Test / tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Local runtime data and generated outputs
+data/sessions/_tmp*
+
+# Generated documents
+docs/*.pdf
+
+# Node leftovers not used in this project
+node_modules/

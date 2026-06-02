@@ -1,0 +1,23 @@
+{
+  "stream": {
+    "name": "NeuronSpectrum 25.03.2026 16:59:34",
+    "type": "EEG",
+    "channel_count": 20,
+    "nominal_srate": 500.0,
+    "source_id": "checkup_3_25.03.2026 16:59:34",
+    "uid": "7558f0d2-919e-4d83-901d-dab8306f0a53",
+    "session_id": "default",
+    "hostname": "DESKTOP-MH281MF",
+    "channel_names": []
+  },
+  "summary": {
+    "n_samples": 29946,
+    "n_channels": 20,
+    "nominal_srate": 500.0,
+    "expected_samples": 31500,
+    "actual_duration_seconds": 63.0,
+    "mean_dt": 0.0021038570712973784,
+    "min_dt": 0.0,
+    "max_dt": 3.0
+  }
+}
