@@ -1,4 +1,4 @@
-# NeuronSpectrum
+# NeuronSpectrumStudio
 
 Python-проект для работы с EEG через LSL (Lab Streaming Layer).
 
